@@ -265,13 +265,13 @@ body {
  * IMAGES
  *********************************************/
 
-.reveal section img {
-	margin: 15px 0px;
-	background: rgba(255,255,255,0.12);
-	border: 4px solid $mainColor;
+// .reveal section img {
+// 	margin: 15px 0px;
+// 	background: rgba(255,255,255,0.12);
+// 	border: 4px solid $mainColor;
 
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-}
+// 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+// }
 
 	.reveal section img.plain {
 		border: 0;
@@ -284,12 +284,12 @@ body {
 		        transition: all .15s linear;
 	}
 
-	.reveal a:hover img {
-		background: rgba(255,255,255,0.2);
-		border-color: $linkColor;
+	// .reveal a:hover img {
+	// 	background: rgba(255,255,255,0.2);
+	// 	border-color: $linkColor;
 
-		box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-	}
+	// 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+	// }
 
 
 /*********************************************
