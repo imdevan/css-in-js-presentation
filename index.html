@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style>
+			.text-primary {
+				color: #D36AC2;
+			}
+			.text-secondary {
+				color: #61dafb;
+			}
+			.text-tertiary {
+				color: #282c34;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Styling (<span class="text-secondary">React</span>) Components With <span class="text-primary">Emotion</span><img style='display: inline-block; margin: auto;' data-src="/imgs/emo.png" height='105px' width='auto'></h1>
+					<p>The answer to your web component styling problems</p>
+
+					<p style="margin-top: 60px;"><a href='twitter.com/devanPapaya'>@devanPapaya</a></p>
+				</section>
+				<section>
+					<h1>What is CSS-In-JS</h1>
+					<p class="fragment fade-in-then-out">Really any library that puts styles in JS…</p>
+					<p class="fragment fade-in">CSS-In-JS attempts to put the best of the css pre-processors on the same build pipeline as the rest of your
+					React/Angular/Vue code to give you the developer a better experience and while improving build performance</p>
+				</section>
+				<section>
+					<h4>tldr;</h4>
+					<p class="fragment fade-in">
+						CSS-In-JS is the new CSS and Emotion is the new Sass
+					</p>
+				</section>
+				<section>
+					<h2>Who is it for?</h2>
+					<p>
+						Anyone who is already developing with React, Angular, or Vue. That want to improve the performance
+						and development experience of styling their apps.
+					</p>
+				</section>
+				<section>
+					<h2 style='font-size:50px;'>What makes <span class='text-primary'>her</span> so special? <img style='display: inline-block; margin: auto;' data-src="/imgs/emo.png" height='50px' width='auto'></h2>
+					<ul>
+						<li>Best of CSS Modules and inline styles</li>
+						<li>Backwords compatible with inline-styles</li>
+						<li>Pages styles load really really fast</li>
+						<li>Super Simple Server Side Rendering</li>
+						<li>Automagical style caching</li>
+						<li>Works with React, React Native, and even React VR!</li>
+					</ul>
+					<p>
+						Learn more at <a href='https://emotion.sh'>emotion.sh</a>
+					</p>
+				</section>
+				<section>
+					<h2 style='font-size:50px;'>What makes <span class='text-primary'>her</span> so special? <img style='display: inline-block; margin: auto;' data-src="/imgs/emo.png" height='50px' width='auto'></h2>
+					<ul>
+						<li>Best of CSS Modules and inline styles</li>
+						<li>Backwords compatible with inline-styles</li>
+						<li>Pages styles load really really fast</li>
+						<li>Super Simple Server Side Rendering</li>
+						<li>Automagical style caching</li>
+						<li>Works with React, React Native, and even React VR!</li>
+					</ul>
+					<p>
+						Learn more at <a href='https://emotion.sh'>emotion.sh</a>
+					</p>
+				</section>
+				<section>
+					<h3>Installation</h3>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
